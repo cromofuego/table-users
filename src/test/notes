@@ -1,0 +1,11 @@
+{/* because if a take, the user select 10 data per page so i divied that in the number footer page,
+  i will get soem like this
+10/3 = 3.3 but with ceil is 4
+10/5 = 2
+10/7 = 1.4 but with ceil is 2
+10/4 = 2.5 but with ceilt is 3
+and the result from every division is the amoutn that i need number of page posible
+selected by the user in teh footer
+so in this case if the filter  info is for a total of 10 and ai divide that i for the selection user in
+this case 7 a will get 1.4 with ceil is 2, so if not is major o iquality to seven i will not render this
+posibility to tap from user because that will no have nothing XD */}

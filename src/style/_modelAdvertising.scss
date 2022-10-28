@@ -1,0 +1,56 @@
+.modal {
+  & .modal-dialog {
+    & .modal-content {
+      .modal-header-border {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .modal-footer-border {
+        padding-top: 0;
+        border-top: none;
+      }
+
+      .p-margin {
+        margin-bottom: 0;
+      }
+
+      .p-user-created-text--color {
+        color: rgb(52 187 209);
+      }
+
+      .p-user-created-text-error--color {
+        color: #e8734f;
+      }
+    }
+
+    .modal-content-size {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height: 320px;
+      width: 420px;
+    }
+
+    .btn-secondary-modal {
+      color: white;
+      background-color: rgb(159, 191, 110);
+
+    }
+
+    .btn-secondary-modal:hover {
+      color: white;
+      background: rgb(131 161 85);
+    }
+
+    .btn-secondary-modal--cancel {
+      color: rgb(131 161 85);
+      background-color: white;
+      border: solid 1px rgb(131 161 85);
+      border-radius: 5px;
+    }
+
+    .btn-secondary-modal--cancel:hover {
+      color: white;
+      background-color: rgb(131 161 85);
+    }
+  }
+}
